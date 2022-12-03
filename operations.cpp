@@ -61,8 +61,8 @@ int main(){
 
 int N;
 std::cin>>N;
-pthread_t ptid[1000];
-Operations operations [1000];
+pthread_t ptid[N];
+Operations operations [N];
 int i;
 for(i = 0; i < N; i++){
 operations[i].i = i + 1;	
